@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(221, 229, 221);
+    background-image: url("Images/trees.jpg");
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+*{
+    color: rgb(155, 128, 11);
+    font-family: Aboreto; 
+}
+
+/* can I just use width: 100%  or do you actually want me to change the look of the elements*/
+h1{
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+h2{
+    font-size: 2em;
+    text-decoration: underline;
+    color: rgb(46, 166, 146);
+    text-align: center;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+
+div.a {
+    line-height: 2em;
+    font-family: Raleway;
+    width: 70%;
+}
+
+ul#mainNav {
+    list-style-type: none;
+    list-style-type: circle;
+}
+
+a:link {
+    color: rgb(116, 137, 90);
+}
+  
+a:visited {
+    color: rgb(76, 85, 132);
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/* Practicing with boxes. Maybe delete*/
+#box {
+    font-size: 4em;
+    color: rgb(46, 166, 146);
+    width: 100%;
+    height: 100%;
+}
+
+.div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
