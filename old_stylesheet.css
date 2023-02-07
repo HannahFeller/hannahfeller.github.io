@@ -1,12 +1,3 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    color: rgb(155, 128, 11);
-    font-family: Aboreto; 
-}
-/* ^ For this, do you want us to put margin and paddiing in a separate element or is this ok? */
-
 body {
     background-color: rgb(221, 229, 221);
     background-image: url("Images/trees.jpg");
@@ -14,36 +5,17 @@ body {
     background-position: right;
 }
 
-#wrapper {
-    width: 80%;
-    margin: auto;
+*{
+    color: rgb(155, 128, 11);
+    font-family: Aboreto; 
 }
 
+/* can I just use width: 100%  or do you actually want me to change the look of the elements*/
 h1{
     font-size: 4em;
     text-align: center;
     width: 100%;
     height: 100%;
-    margin-bottom: 0;
-}
-
-#header {
-    color: rgb(98, 192, 169);
-    padding: 20px;
-    width: 20%;
-    margin: auto;
-}
-
-#footer {
-    padding: 60px;
-    width: 80%;
-    margin: auto;
-}
-
-#nav {
-    padding: 60px;
-    width: 80%;
-    margin: auto;
 }
 
 h2{
@@ -53,7 +25,6 @@ h2{
     text-align: center;
     font-family: Raleway;
     text-transform: uppercase;
-    margin-top: 0;
 }
 
 div.a {
@@ -67,6 +38,19 @@ ul#mainNav {
     list-style-type: circle;
 }
 
+a:link {
+    color: rgb(116, 137, 90);
+}
+  
+a:visited {
+    color: rgb(76, 85, 132);
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/* Practicing with boxes. Maybe delete*/
 #box {
     font-size: 4em;
     color: rgb(46, 166, 146);
@@ -79,22 +63,4 @@ ul#mainNav {
     padding: 10px;
     border: 5px solid gray;
     margin: 0;
-}
-
-img {
-    width: 280px;
-    height: auto;
-}
-
-/* Link attributes */
-a:link {
-    color: rgb(116, 137, 90);
-}
-  
-a:visited {
-    color: rgb(76, 85, 132);
-}
-
-a:hover {
-    color: hotpink;
 }
