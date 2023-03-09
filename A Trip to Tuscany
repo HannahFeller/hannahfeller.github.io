@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tuscany</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section id="arezzo">
+      <h1>Arezzo</h1>
+      <div class="background-image"></div>
+      <h2>To do</h2>
+      <p>Monumento a Francesco Petraca</p>
+      <p>Among the scenery of a stunning city park sits the monument of Francesco Petrarca.</p>
+      <h2>Winery</h2>
+      <p>Podere Di Pomaio Green Winery</p>
+      <p>“The atmosphere that surrounds the farm reconciles us with nature and the gaze runs over the gardens and over the entire Pomaio oasis before getting lost down towards Valley, the city of Arezzo, the Valdichiana, and the Chianti hills to the west close the horizon. From the farm, you have the sensation of sailing by sight above the city resting like wine in a "barrel" within an eco-sustainable wine resort.”</p>
+      <h2>Dinner</h2>
+      <p>Al Fogher Classic</p>
+      <p>Just specialize in pizza. There are no starters, first courses, second courses, salads, or side dishes on our menu; our entire staff has focused their attention exclusively on the creation of classic pizza, contemporary pizza, and dessert pizza</p>
+    </section>
