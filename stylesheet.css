@@ -5,7 +5,6 @@
     color: rgb(155, 128, 11);
     font-family: Aboreto; 
 }
-/* ^ For this, do you want us to put margin and paddiing in a separate element or is this ok? */
 
 body {
     background-color: rgb(221, 229, 221);
@@ -29,19 +28,19 @@ h1{
 
 #header {
     color: rgb(98, 192, 169);
-    padding: 20px;
+    padding: 5%;
     width: 20%;
     margin: auto;
 }
 
 #footer {
-    padding: 60px;
+    padding: 15%;
     width: 80%;
     margin: auto;
 }
 
 #nav {
-    padding: 60px;
+    padding: 15%;
     width: 80%;
     margin: auto;
 }
@@ -56,7 +55,7 @@ h2{
     margin-top: 0;
 }
 
-div.a {
+.main-text {
     line-height: 2em;
     font-family: Raleway;
     width: 70%;
@@ -74,10 +73,9 @@ ul#mainNav {
     height: 100%;
 }
 
-.div {
+div {
     width: 320px;
     padding: 10px;
-    border: 5px solid gray;
     margin: 0;
 }
 
@@ -97,4 +95,40 @@ a:visited {
 
 a:hover {
     color: hotpink;
+}
+
+/* Column stuff */
+
+.columns {
+    float: left;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.right-margin {
+    width: 20%;
+}
+
+footer {
+    clear: left;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        background-color: aquamarine;
+    }
+    
+    @media only screen and (max-width: 400px)  {
+    
+        Body{
+            background-color: beige;
+        }
+        h1 {color:blue;
+        }
+    div{
+        width:100%
+        background-color 
+    }
 }

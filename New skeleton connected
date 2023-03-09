@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="language-en">
+    
+    <div class="header">
+    <head class="header">
+        <title>Sandbox</title>
+        <link href="stylesheet.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0" @media only screen and (max-width: 400px) {} /* smaller than mobile
+        */>
+
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@400;600&family=Raleway&display=swap" rel="stylesheet">
+    </head>
+    </div>
+
+
+    <div id="wrapper">
+    <body>
+        <article>
+            <h1>Hannah Feller</h1>
+            <h2>Hello and welcome to my sandbox!</h2> 
+        
+            <br>
+
+            <ul> 
+                <li>DSGN 360</li>
+                <li>Winter Quarter 2023</li>
+            </ul>
+            <img src="Images/Hannah_in_Paris_Louve.JPG" alt="Hannah Feller standing outside paris" width="280" height="400">
+            <br>
+        </article>
+
+        <nav> 
+            <ul id="mainNav">
+                <li><a href="https://www.figma.com/file/iuMTHFwygRQpDE5JUKDY5T/Engedi-Refuge-Website-Redesign?node-id=0%3A1&t=ehEqK93yMBlaaqxq-1">Project 1</a></li>
+                <li><a href=”https://hannahfeller.github.io/pdf/Engedi_Refuge_re-design.pdf”>Project 1 Process</a></li>
+                <li><a href=”#”>Project 2</a></li>
+                <li><a href=”#”>Project 2 Process</a></li>
+            </ul>
+        </nav> 
+        
+        <br>
+        <div class="main-text">
+            My name is Hannah Feller and I’m a design student currently enrolled in DSGN 360, DSGN 358, and 340, a branding course. When I'm not at school I'm probably at work
+            or in Seattle! I work at Good Chance Creative a digital marketing agency, I specialize in video content for clients on their social channels. Down in 
+            Seattle, on weekends, I'm with my Fiance William! I'm loving exploring Seattle and the neighborhood he lives in. This spring I will graduate from WWU
+            and get married in July!
+            <br>
+            <br>
+        </div>
+
+
+
+    </body>
+    </div>
+
+    
+    <footer>
+        <a href="fellerh@wwu.edu">fellerh@wwu.edu</a>
+        <p><b>&copy; copyright 2023</b><br></p>
+    </footer>
+
+</html>
